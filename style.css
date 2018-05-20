@@ -1,0 +1,75 @@
+body{
+	background-color: #0F1E5C;
+}
+	h1{
+		text-align: center;
+		font-size:50px;
+		color: #57264F; 
+}
+form{
+	text-align: center;
+	    margin: 20px auto;
+    	width: 320px;
+    	color: #57264F;
+}
+input{
+	padding: 10px;
+	font-size:inherit;
+
+}
+input[type="tex"]{
+	display:block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 5px solid #57264F;
+	background:#EDB4E5;
+}
+input[type="password"]{
+	display:block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 5px solid #57264F;
+	background:#EDB4E5;
+}
+input[type="confrom password"]{
+	display:block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 5px solid #57264F;
+	background:#EDB4E5;
+}
+input[type="email"]{
+	display:block;
+	margin-bottom: 25px;
+	width: 100%;
+	border: 5px solid #57264F;
+	background:#EDB4E5;
+}
+input[type="radio"]{
+	margin: 0 8px 25px 18px;
+}
+input[type="radio"]: first-child{
+	margin-left: 0;
+}
+input[type="submit"]{
+	width: 344px;
+	height:44px;
+	border: none;
+	background:#57264F;
+	color: white;
+}
+input[type="submit"]:focus {
+	width: 344px;
+	height:44px;
+	border: solid #57264F;
+	background:white;
+	color: #57264F; 
+}
+ input:focus {
+ 	background:white;
+
+}
+input[type="radio"]:checked + label{
+	font-weight: bold;
+	font-size: 18px
+}
