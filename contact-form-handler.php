@@ -19,6 +19,6 @@
 
      mail($to, $email_subject, $email_body, $sheaders);
 
-     header("location; sms.html");                  
+     header("location: sms.html");                  
 
 ?>
