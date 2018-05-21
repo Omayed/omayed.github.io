@@ -17,9 +17,9 @@
 
      $headers = "Reply_To: $visitor_email\r\n";
 
-     mail($to, $email_subject, $email_body, $sheaders);
+     mail($to, $email_subject, $email_body, $headers);
 
-     headler("location:sms.html");                  
+     header("location:sms.html");                  
 
 
 ?>
