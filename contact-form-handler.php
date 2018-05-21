@@ -19,7 +19,7 @@
 
      mail($to, $email_subject, $email_body, $sheaders);
 
-     header("location:sms.html");                  
+     headler("location:sms.html");                  
 
 
 ?>
