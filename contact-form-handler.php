@@ -5,11 +5,11 @@
 
      $email_from = 'mdabuomayed44@gmail.com';
 
-     $email_subject ="new form submission";
+     $email_subject ="New form submission";
 
      $email_body = "user_name: $name.\n".
                      "user_email: $visitor_email.\n".
-                       "user message: $message.\n".
+                       "user message: $message.\n";
 
      $to = "abuomayedwebpage@gmail.com";
 
@@ -19,6 +19,7 @@
 
      mail($to, $email_subject, $email_body, $sheaders);
 
-     header("location: sms.html");                  
+     header("location:sms.html");                  
+
 
 ?>
