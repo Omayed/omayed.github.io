@@ -7,8 +7,8 @@
 
      $email_subject ="New form submission";
 
-     $email_body = "user_name: $name.\n".
-                     "user_email: $visitor_email.\n".
+     $email_body = "user name: $name.\n".
+                     "user email: $visitor_email.\n".
                        "user message: $message.\n";
 
      $to = "abuomayedwebpage@gmail.com";
@@ -17,9 +17,9 @@
 
      $headers = "Reply_To: $visitor_email \r\n";
 
-     $mail($to, $email_subject, $email_body, $headers);
+     mail($to,$email_subject,$email_body,$headers);
 
-     $header("Location:sms.html");                  
+     header("Location:sms.html");                  
 
 
 ?>
