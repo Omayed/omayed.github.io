@@ -1,16 +1,22 @@
 body{
-	background-color: #0F1E5C;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 50, .5),rgba(0, 0, 50, .5)),url(om.jpeg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
 }
 	h1{
 		text-align: center;
 		font-size:50px;
-		color: #57264F; 
+		color: #0A1C52; 
 }
 form{
 	text-align: center;
 	    margin: 20px auto;
     	width: 320px;
-    	color: #57264F;
+    	color: #0A1C52;
 }
 input{
 	padding: 10px;
@@ -21,28 +27,28 @@ input[type="tex"]{
 	display:block;
 	margin-bottom: 25px;
 	width: 100%;
-	border: 5px solid #57264F;
+	border: 5px solid #0A1C52;
 	background:#EDB4E5;
 }
 input[type="password"]{
 	display:block;
 	margin-bottom: 25px;
 	width: 100%;
-	border: 5px solid #57264F;
+	border: 5px solid #0A1C52;
 	background:#EDB4E5;
 }
 input[type="confrom password"]{
 	display:block;
 	margin-bottom: 25px;
 	width: 100%;
-	border: 5px solid #57264F;
+	border: 5px solid #0A1C52;
 	background:#EDB4E5;
 }
 input[type="email"]{
 	display:block;
 	margin-bottom: 25px;
 	width: 100%;
-	border: 5px solid #57264F;
+	border: 5px solid #0A1C52;
 	background:#EDB4E5;
 }
 input[type="radio"]{
@@ -55,13 +61,13 @@ input[type="submit"]{
 	width: 344px;
 	height:44px;
 	border: none;
-	background:#57264F;
+	background:#0A1C52;
 	color: white;
 }
 input[type="submit"]:focus {
 	width: 344px;
 	height:44px;
-	border: solid #57264F;
+	border: solid #0A1C52;
 	background:white;
 	color: #57264F; 
 }
