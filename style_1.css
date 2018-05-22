@@ -5,6 +5,7 @@ body{
 	background: linear-gradient(rgba(0, 0, 50, .5),rgba(0, 0, 50, .5)),url(earth.jpg);
 	background-size: cover;
 	background-position: cover;
+	background-repeat: no-repeat;
 	font-family: sans-serif;
 }
 .contact-title
