@@ -1,1 +1,0 @@
-# omayed.github.io
