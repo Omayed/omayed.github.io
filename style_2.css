@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	background: linear-gradient(rgba(0, 0, 50, .5),rgba(0, 0, 50, .5)),url(books1.jpg);
+	background: linear-gradient(rgba(0, 0, 50, .5),rgba(0, 0, 50, .5)),url(images.jpg);
 	background-size: cover;
 	background-position: center;
 	font-family: sans-serif;
